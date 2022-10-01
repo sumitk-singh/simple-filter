@@ -10,32 +10,34 @@ const Filter = () => {
       category: "phone",
       product: "iphone 13",
       price: "45000",
-      rating: "4/5"
+      rating: "4/5",
     },
     {
       _id: uuid(),
       category: "phone",
       product: "pixel 8",
       price: "25000",
-      rating: "2/5"
+      rating: "2/5",
     },
     {
       _id: uuid(),
       category: "shoes",
       product: "Nike sports",
       price: "9000",
-      rating: "3/5"
+      rating: "3/5",
     },
     {
       _id: uuid(),
       category: "shoes",
       product: "Roadster",
       price: "990",
-      rating: "4/5"
-    }
+      rating: "4/5",
+    },
   ];
   //End of db -----
+
   const [data, setData] = useState("");
+
   // phone btn click handler function -----
   const clickHandlerForPhone = () => {
     return setData(
